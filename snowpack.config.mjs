@@ -30,6 +30,7 @@ export default {
     tailwindConfig: './tailwind.config.js',
   },
   buildOptions: {
-    /* ... */
+    metaUrlPath: 'snowpack',
+    baseUrl: '/',
   },
 };

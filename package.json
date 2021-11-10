@@ -4,9 +4,9 @@
     "build": "snowpack build",
     "test": "web-test-runner \"src/**/*.test.tsx\"",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
-    "lint": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\"",
-    "deploy": "gh-pages -d build -r https://github.com/owoifierbot/owoifierbot.github.io.git"
+    "lint": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\""
   },
+  "homepage": "https://owoifierbot.xyz/",
   "dependencies": {
     "@skyra/discord-components-core": "^2.11.6",
     "@skyra/discord-components-react": "^2.11.6",
